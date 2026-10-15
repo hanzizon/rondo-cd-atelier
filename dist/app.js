@@ -4,7 +4,18 @@ const $=id=>document.getElementById(id);let paused=false,spin=false,opened=false
 let db,albums=[],selected=null,defaults=[];
 const orderKey='rondo-album-order-v1';
 let savedOrder=[];try{const value=JSON.parse(localStorage.getItem(orderKey)||'[]');if(Array.isArray(value))savedOrder=value.filter(id=>typeof id==='string');}catch{}
-function restoreOrder(){const rank=new Map(savedOrder.map((id,i)=>[id,i]));albums.sort((a,b)=>(rank.get(a.id)??Infinity)-(rank.get(b.id)??Infinity));}
+const mediaAlbumIds=new Set(["rondo-6","amaoto","amaoto-limited","rondo-4","fukai-mori","killing-me","rondo-hana","rondo-revolution"]);
+const mediaOrderKey='rondo-media-first-20261015';
+let mediaOrderApplied=false;try{mediaOrderApplied=localStorage.getItem(mediaOrderKey)==='1';}catch{}
+function restoreOrder(){
+ const rank=new Map(savedOrder.map((id,i)=>[id,i]));
+ albums.sort((a,b)=>(rank.get(a.id)??Infinity)-(rank.get(b.id)??Infinity));
+ if(defaults.length&&!mediaOrderApplied){
+  albums.sort((a,b)=>Number(mediaAlbumIds.has(b.id))-Number(mediaAlbumIds.has(a.id)));
+  savedOrder=albums.map(a=>a.id);mediaOrderApplied=true;
+  try{localStorage.setItem(orderKey,JSON.stringify(savedOrder));localStorage.setItem(mediaOrderKey,'1');}catch{}
+ }
+}
 function displayName(a){return String(albums.findIndex(x=>x.id===a.id)+1).padStart(2,'0')+' · '+a.name.replace(/^\d+ · /,'');}
 function moveAlbum(id,offset){const from=albums.findIndex(a=>a.id===id),to=from+offset;if(from<0||to<0||to>=albums.length)return;const [album]=albums.splice(from,1);albums.splice(to,0,album);savedOrder=albums.map(a=>a.id);try{localStorage.setItem(orderKey,JSON.stringify(savedOrder));$('status').textContent='앨범 순서를 이 브라우저에 저장했습니다.';}catch{$('status').textContent='현재 화면의 순서는 변경했지만 저장하지 못했습니다.';}renderAlbums();document.querySelector('[data-move-id="'+CSS.escape(id)+'"][data-direction="'+offset+'"]')?.focus();}
 
