@@ -1,1 +1,104 @@
-[{"id": "rondo-6", "name": "01 · 夢想曲 -Träumerei-", "data": "./covers/IMG_5177.jpeg", "builtin": true}, {"id": "rondo-4", "name": "02 · BLACK LOTUS", "data": "./covers/IMG_5175.jpeg", "builtin": true}, {"id": "rondo-13", "name": "03 · カレンデュラ", "data": "./covers/IMG_5184.jpeg", "builtin": true}, {"id": "rondo-1", "name": "04 · 未来", "data": "./covers/IMG_5172.jpeg", "builtin": true}, {"id": "rondo-2", "name": "05 · 瞬動", "data": "./covers/IMG_5173.jpeg", "builtin": true}, {"id": "rondo-3", "name": "06 · -茈-", "data": "./covers/IMG_5174.jpeg", "builtin": true}, {"id": "rondo-5", "name": "07 · prayer[s]", "data": "./covers/IMG_5176.jpeg", "builtin": true}, {"id": "rondo-8", "name": "08 · クライノイド", "data": "./covers/IMG_5179.jpeg", "builtin": true}, {"id": "rondo-9", "name": "09 · Re termination", "data": "./covers/IMG_5180.jpeg", "builtin": true}, {"id": "rondo-10", "name": "10 · 神蕾", "data": "./covers/IMG_5182.webp", "builtin": true}, {"id": "rondo-14", "name": "11 · Bloody Mary", "data": "./covers/IMG_5183.jpeg", "builtin": true}, {"id": "rondo-revolution", "name": "12 · 輪舞-revolution", "data": "./covers/revolution.webp", "builtin": true}, {"id": "rondo-hana", "name": "13 · 「花の手錠と魔物の箱庭」", "data": "./covers/hana.webp", "builtin": true}, {"id": "amaoto-limited", "name": "14 · 雨音（限定盤）", "data": "./covers/amaoto-limited.png", "builtin": true}, {"id": "amaoto", "name": "15 · 雨音", "data": "./covers/amaoto.png", "builtin": true}, {"id": "fukai-mori", "name": "16 · 深い森", "data": "./covers/fukai-mori.png", "builtin": true}, {"id": "killing-me", "name": "17 · KiLLiNG ME", "data": "./covers/killing-me.png", "builtin": true}]
+[
+  {
+    "id": "rondo-6",
+    "name": "01 · 夢想曲 -Träumerei-",
+    "data": "./covers/IMG_5177.jpeg",
+    "builtin": true
+  },
+  {
+    "id": "rondo-4",
+    "name": "02 · BLACK LOTUS",
+    "data": "./covers/IMG_5175.jpeg",
+    "builtin": true
+  },
+  {
+    "id": "rondo-revolution",
+    "name": "03 · 輪舞-revolution",
+    "data": "./covers/revolution.webp",
+    "builtin": true
+  },
+  {
+    "id": "rondo-hana",
+    "name": "04 · 「花の手錠と魔物の箱庭」",
+    "data": "./covers/hana.webp",
+    "builtin": true
+  },
+  {
+    "id": "amaoto-limited",
+    "name": "05 · 雨音（限定盤）",
+    "data": "./covers/amaoto-limited.png",
+    "builtin": true
+  },
+  {
+    "id": "amaoto",
+    "name": "06 · 雨音",
+    "data": "./covers/amaoto.png",
+    "builtin": true
+  },
+  {
+    "id": "fukai-mori",
+    "name": "07 · 深い森",
+    "data": "./covers/fukai-mori.png",
+    "builtin": true
+  },
+  {
+    "id": "killing-me",
+    "name": "08 · KiLLiNG ME",
+    "data": "./covers/killing-me.png",
+    "builtin": true
+  },
+  {
+    "id": "rondo-13",
+    "name": "09 · カレンデュラ",
+    "data": "./covers/IMG_5184.jpeg",
+    "builtin": true
+  },
+  {
+    "id": "rondo-1",
+    "name": "10 · 未来",
+    "data": "./covers/IMG_5172.jpeg",
+    "builtin": true
+  },
+  {
+    "id": "rondo-2",
+    "name": "11 · 瞬動",
+    "data": "./covers/IMG_5173.jpeg",
+    "builtin": true
+  },
+  {
+    "id": "rondo-3",
+    "name": "12 · -茈-",
+    "data": "./covers/IMG_5174.jpeg",
+    "builtin": true
+  },
+  {
+    "id": "rondo-5",
+    "name": "13 · prayer[s]",
+    "data": "./covers/IMG_5176.jpeg",
+    "builtin": true
+  },
+  {
+    "id": "rondo-8",
+    "name": "14 · クライノイド",
+    "data": "./covers/IMG_5179.jpeg",
+    "builtin": true
+  },
+  {
+    "id": "rondo-9",
+    "name": "15 · Re termination",
+    "data": "./covers/IMG_5180.jpeg",
+    "builtin": true
+  },
+  {
+    "id": "rondo-10",
+    "name": "16 · 神蕾",
+    "data": "./covers/IMG_5182.webp",
+    "builtin": true
+  },
+  {
+    "id": "rondo-14",
+    "name": "17 · Bloody Mary",
+    "data": "./covers/IMG_5183.jpeg",
+    "builtin": true
+  }
+]
