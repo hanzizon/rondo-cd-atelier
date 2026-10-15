@@ -21,7 +21,8 @@ function unlock(){
     ctx.resume().catch(()=>{});
   } catch {}
 }
-const trackGainDb={'fukai-mori-av.mp4':15,'amaoto-av.mp4':6};
+// Balance the seven active recordings to approximately -24 dBFS mean.
+const trackGainDb={'fukai-mori-av.mp4':15,'amaoto-av.mp4':6,'hana-av.mp4':5,'black-lotus-av.mp4':1,'revolution.m4a':1.5};
 function envelope(on){
   if(!gain)return;
   const t=ctx.currentTime,p=gain.gain;
