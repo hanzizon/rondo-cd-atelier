@@ -60,44 +60,50 @@
     "builtin": true
   },
   {
-    "id": "rondo-1",
-    "name": "11 · 未来",
-    "data": "./covers/IMG_5172.jpeg",
-    "builtin": true
-  },
-  {
     "id": "rondo-2",
-    "name": "12 · 瞬動",
+    "name": "11 · 燐華",
     "data": "./covers/IMG_5173.jpeg",
     "builtin": true
   },
   {
+    "id": "arcana",
+    "name": "12 · ARCANA",
+    "data": "./covers/arcana.png",
+    "builtin": true
+  },
+  {
+    "id": "rondo-1",
+    "name": "13 · 未来",
+    "data": "./covers/IMG_5172.jpeg",
+    "builtin": true
+  },
+  {
     "id": "rondo-3",
-    "name": "13 · -茈-",
+    "name": "14 · -茈-",
     "data": "./covers/IMG_5174.jpeg",
     "builtin": true
   },
   {
     "id": "rondo-5",
-    "name": "14 · prayer[s]",
+    "name": "15 · prayer[s]",
     "data": "./covers/IMG_5176.jpeg",
     "builtin": true
   },
   {
     "id": "rondo-9",
-    "name": "15 · Re termination",
+    "name": "16 · Re termination",
     "data": "./covers/IMG_5180.jpeg",
     "builtin": true
   },
   {
     "id": "rondo-10",
-    "name": "16 · 神蕾",
+    "name": "17 · 神蕾",
     "data": "./covers/IMG_5182.webp",
     "builtin": true
   },
   {
     "id": "rondo-14",
-    "name": "17 · Bloody Mary",
+    "name": "18 · Bloody Mary",
     "data": "./covers/IMG_5183.jpeg",
     "builtin": true
   }
