@@ -54,33 +54,33 @@
     "builtin": true
   },
   {
+    "id": "rondo-8",
+    "name": "10 · クライノイド",
+    "data": "./covers/IMG_5179.jpeg",
+    "builtin": true
+  },
+  {
     "id": "rondo-1",
-    "name": "10 · 未来",
+    "name": "11 · 未来",
     "data": "./covers/IMG_5172.jpeg",
     "builtin": true
   },
   {
     "id": "rondo-2",
-    "name": "11 · 瞬動",
+    "name": "12 · 瞬動",
     "data": "./covers/IMG_5173.jpeg",
     "builtin": true
   },
   {
     "id": "rondo-3",
-    "name": "12 · -茈-",
+    "name": "13 · -茈-",
     "data": "./covers/IMG_5174.jpeg",
     "builtin": true
   },
   {
     "id": "rondo-5",
-    "name": "13 · prayer[s]",
+    "name": "14 · prayer[s]",
     "data": "./covers/IMG_5176.jpeg",
-    "builtin": true
-  },
-  {
-    "id": "rondo-8",
-    "name": "14 · クライノイド",
-    "data": "./covers/IMG_5179.jpeg",
     "builtin": true
   },
   {
