@@ -1,7 +1,7 @@
 // One media clock for picture and sound. Clips include 4s/5s loop fades;
 // per-track gain balances their playback levels.
 export const video=document.createElement('video');
-const tracks={'rondo-6':'traumerei-av.mp4','amaoto':'amaoto-av.mp4','amaoto-limited':'amaoto-av.mp4','rondo-4':'black-lotus-av.mp4','fukai-mori':'fukai-mori-av.mp4','killing-me':'killing-me-av.mp4','rondo-hana':'hana-av.mp4','rondo-revolution':'revolution.m4a','rondo-8':'crinoid.m4a','rondo-13':'calendula-av.mp4','rondo-2':'rinka.m4a','arcana':'arcana-av.mp4'};
+const tracks={'rondo-6':'traumerei-av.mp4','amaoto':'amaoto-av.mp4','amaoto-limited':'amaoto-av.mp4','rondo-4':'black-lotus-av.mp4','fukai-mori':'fukai-mori-av.mp4','killing-me':'killing-me-av.mp4','rondo-hana':'hana-av.mp4','rondo-revolution':'revolution.m4a','rondo-8':'crinoid.m4a','rondo-13':'calendula-av.mp4','rondo-2':'rinka.m4a','arcana':'arcana-av.mp4','fake-off':'fake-off-av.mp4'};
 let currentTrack=null,desiredTrack=null,switchTimer,switching=false,playing=false;
 video.loop=true;
 video.playsInline=true;
@@ -22,7 +22,7 @@ function unlock(){
   } catch {}
 }
 // Balance active recordings to approximately -24 dBFS mean.
-const trackGainDb={'fukai-mori-av.mp4':15,'amaoto-av.mp4':6,'hana-av.mp4':5,'black-lotus-av.mp4':1,'revolution.m4a':1.5,'crinoid.m4a':-13.5,'calendula-av.mp4':-11.5,'rinka.m4a':-9.6,'arcana-av.mp4':-3.6};
+const trackGainDb={'fukai-mori-av.mp4':15,'amaoto-av.mp4':6,'hana-av.mp4':5,'black-lotus-av.mp4':1,'revolution.m4a':1.5,'crinoid.m4a':-13.5,'calendula-av.mp4':-11.5,'rinka.m4a':-9.6,'arcana-av.mp4':-3.6,'fake-off-av.mp4':7};
 function envelope(on){
   if(!gain)return;
   const t=ctx.currentTime,p=gain.gain;

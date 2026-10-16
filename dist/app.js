@@ -4,8 +4,8 @@ const $=id=>document.getElementById(id);let paused=false,spin=false,opened=false
 let db,albums=[],selected=null,defaults=[];
 const orderKey='rondo-album-order-v1';
 let savedOrder=[];try{const value=JSON.parse(localStorage.getItem(orderKey)||'[]');if(Array.isArray(value))savedOrder=value.filter(id=>typeof id==='string');}catch{}
-const mediaAlbumIds=new Set(["rondo-6","amaoto","amaoto-limited","rondo-4","fukai-mori","killing-me","rondo-hana","rondo-revolution","rondo-8","rondo-13","rondo-2","arcana"]);
-const mediaOrderKey='rondo-media-first-20261016-arcana';
+const mediaAlbumIds=new Set(["rondo-6","amaoto","amaoto-limited","rondo-4","fukai-mori","killing-me","rondo-hana","rondo-revolution","rondo-8","rondo-13","rondo-2","arcana","fake-off"]);
+const mediaOrderKey='rondo-media-first-20261016-fake-off';
 let mediaOrderApplied=false;try{mediaOrderApplied=localStorage.getItem(mediaOrderKey)==='1';}catch{}
 function restoreOrder(){
  const rank=new Map(savedOrder.map((id,i)=>[id,i]));

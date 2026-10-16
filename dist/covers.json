@@ -72,45 +72,45 @@
     "builtin": true
   },
   {
+    "id": "fake-off",
+    "name": "13 · FAKE OFF",
+    "data": "./covers/fake-off.jpg",
+    "builtin": true
+  },
+  {
     "id": "rondo-1",
-    "name": "13 · 未来",
+    "name": "14 · 未来",
     "data": "./covers/IMG_5172.jpeg",
     "builtin": true
   },
   {
     "id": "rondo-3",
-    "name": "14 · -茈-",
+    "name": "15 · -茈-",
     "data": "./covers/IMG_5174.jpeg",
     "builtin": true
   },
   {
     "id": "rondo-5",
-    "name": "15 · prayer[s]",
+    "name": "16 · prayer[s]",
     "data": "./covers/IMG_5176.jpeg",
     "builtin": true
   },
   {
     "id": "rondo-9",
-    "name": "16 · Re termination",
+    "name": "17 · Re termination",
     "data": "./covers/IMG_5180.jpeg",
     "builtin": true
   },
   {
     "id": "rondo-10",
-    "name": "17 · 神蕾",
+    "name": "18 · 神蕾",
     "data": "./covers/IMG_5182.webp",
     "builtin": true
   },
   {
     "id": "rondo-14",
-    "name": "18 · Bloody Mary",
+    "name": "19 · Bloody Mary",
     "data": "./covers/IMG_5183.jpeg",
-    "builtin": true
-  },
-  {
-    "id": "fake-off",
-    "name": "19 · FAKE OFF",
-    "data": "./covers/fake-off.jpg",
     "builtin": true
   }
 ]
