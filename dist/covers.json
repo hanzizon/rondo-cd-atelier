@@ -106,5 +106,11 @@
     "name": "18 · Bloody Mary",
     "data": "./covers/IMG_5183.jpeg",
     "builtin": true
+  },
+  {
+    "id": "fake-off",
+    "name": "19 · FAKE OFF",
+    "data": "./covers/fake-off.jpg",
+    "builtin": true
   }
 ]
