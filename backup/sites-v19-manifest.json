@@ -1,0 +1,303 @@
+{
+  "date": "2026-10-29",
+  "siteProject": "appgprj_6acdff6b11148191b92f60400fa4bfc2",
+  "siteVersion": 19,
+  "siteSourceCommit": "38e7247e73f1f40c80d7489e3ae700f19724f060",
+  "githubBeforeCommit": "47aaf4250e0deacc0e06e3d095a62f791f23aa94",
+  "files": [
+    {
+      "path": ".openai/hosting.json",
+      "bytes": 91,
+      "sha256": "6807fc2f660815f811ea4aee6dbd5a81e58b35cf15ae8e68b497fdaf497a3a9b",
+      "githubBefore": "missing",
+      "githubBeforeSha256": null
+    },
+    {
+      "path": "dist/CREDITS.md",
+      "bytes": 428,
+      "sha256": "17e70eb98b4d71447f93d4b5e3d2ffafbfdb4d6ddd7a7bfc5baa14a1627cbf11",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "17e70eb98b4d71447f93d4b5e3d2ffafbfdb4d6ddd7a7bfc5baa14a1627cbf11"
+    },
+    {
+      "path": "dist/app.js",
+      "bytes": 8505,
+      "sha256": "21eaa5765f51d2827afb79a5eae8f4f767059a47a3564fc467f09c46c51b292f",
+      "githubBefore": "different",
+      "githubBeforeSha256": "03ce7ea5ede0d36b87a01cc59f6580cf8f26f8625354e0707bb41729ad6ab35c"
+    },
+    {
+      "path": "dist/astra.html",
+      "bytes": 41464,
+      "sha256": "65e31e9946d14655b3e4526acbed67e0cc380481de5ae201cc61eaebf4c14704",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "65e31e9946d14655b3e4526acbed67e0cc380481de5ae201cc61eaebf4c14704"
+    },
+    {
+      "path": "dist/audio/amaoto-av.mp4",
+      "bytes": 8283625,
+      "sha256": "b61c820514fc37765754a23b4fb3fc7e88d50d34a907087ed997d55fded465b5",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "b61c820514fc37765754a23b4fb3fc7e88d50d34a907087ed997d55fded465b5"
+    },
+    {
+      "path": "dist/audio/black-lotus-av.mp4",
+      "bytes": 7444319,
+      "sha256": "b2741786e46588c18259015faae4070774baa79e24325d387bd94ab24fa031e1",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "b2741786e46588c18259015faae4070774baa79e24325d387bd94ab24fa031e1"
+    },
+    {
+      "path": "dist/audio/fukai-mori-av.mp4",
+      "bytes": 24332020,
+      "sha256": "60d37f039665049f31b3b505f187b23100b722e2ea961732236252c5edba0125",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "60d37f039665049f31b3b505f187b23100b722e2ea961732236252c5edba0125"
+    },
+    {
+      "path": "dist/audio/hana-av.mp4",
+      "bytes": 17586352,
+      "sha256": "e7e5b93d9566a8625b4b5bcf715dd76743435f7dbf3855981bd03d270cbe4ff8",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "e7e5b93d9566a8625b4b5bcf715dd76743435f7dbf3855981bd03d270cbe4ff8"
+    },
+    {
+      "path": "dist/audio/killing-me-av.mp4",
+      "bytes": 10947958,
+      "sha256": "8eee28b56dff53b1f8a31403b9a84bbfbbbeba15a0e7f6d4450223b407eb8d85",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "8eee28b56dff53b1f8a31403b9a84bbfbbbeba15a0e7f6d4450223b407eb8d85"
+    },
+    {
+      "path": "dist/audio/revolution.m4a",
+      "bytes": 785808,
+      "sha256": "66ec5c17704298eb2af58c527177605ac97f2e5a7f27144733730d9284c865d9",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "66ec5c17704298eb2af58c527177605ac97f2e5a7f27144733730d9284c865d9"
+    },
+    {
+      "path": "dist/audio/traumerei-av.mp4",
+      "bytes": 13047638,
+      "sha256": "66fab66f4647c232ac3ebeb63a2f5d2e03ffa950c069776671e2f2aa35949741",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "66fab66f4647c232ac3ebeb63a2f5d2e03ffa950c069776671e2f2aa35949741"
+    },
+    {
+      "path": "dist/audio/traumerei-loop.m4a",
+      "bytes": 949943,
+      "sha256": "78273fad46849f1cb4e5c767637011d9c1316212d346c49c11d1418cf7583729",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "78273fad46849f1cb4e5c767637011d9c1316212d346c49c11d1418cf7583729"
+    },
+    {
+      "path": "dist/audio/traumerei-mv.mp4",
+      "bytes": 12076525,
+      "sha256": "9094d4fec563404c83678db3f1674d6b30a9620e20fd3a02c5e7c0787da6aced",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "9094d4fec563404c83678db3f1674d6b30a9620e20fd3a02c5e7c0787da6aced"
+    },
+    {
+      "path": "dist/caseGeometry.js",
+      "bytes": 17449,
+      "sha256": "f25a20ea88f2e3e0f2951cec6a40c6366fcc82664cc5ddb3f325e3752dedf606",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "f25a20ea88f2e3e0f2951cec6a40c6366fcc82664cc5ddb3f325e3752dedf606"
+    },
+    {
+      "path": "dist/covers.json",
+      "bytes": 1750,
+      "sha256": "246736024181108acb88703ea76c756a36edcce45595298b400c3ec24e6745f4",
+      "githubBefore": "different",
+      "githubBeforeSha256": "6791bc472dc19fba637be818edb70bbbec110c0789518a8105b77f2f23ffb693"
+    },
+    {
+      "path": "dist/covers/IMG_5172.jpeg",
+      "bytes": 293227,
+      "sha256": "6ee86dd02cef5c92034f0a2416ebee8117de8b7ba6e446c46494dea91e144d7c",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "6ee86dd02cef5c92034f0a2416ebee8117de8b7ba6e446c46494dea91e144d7c"
+    },
+    {
+      "path": "dist/covers/IMG_5173.jpeg",
+      "bytes": 342159,
+      "sha256": "af45764a396b0036021cb004072189a82b38c96f7325f664c121ca2d5c172fbb",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "af45764a396b0036021cb004072189a82b38c96f7325f664c121ca2d5c172fbb"
+    },
+    {
+      "path": "dist/covers/IMG_5174.jpeg",
+      "bytes": 162354,
+      "sha256": "85796d951d92b0e231d9731f3ddbe6da2df4d049fed289b18acc3eca267fb2ae",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "85796d951d92b0e231d9731f3ddbe6da2df4d049fed289b18acc3eca267fb2ae"
+    },
+    {
+      "path": "dist/covers/IMG_5175.jpeg",
+      "bytes": 287089,
+      "sha256": "a833f95a4efc8236c70571d13c9ba4bfdf4697f9843e50cca9631ecacd27bad7",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "a833f95a4efc8236c70571d13c9ba4bfdf4697f9843e50cca9631ecacd27bad7"
+    },
+    {
+      "path": "dist/covers/IMG_5176.jpeg",
+      "bytes": 257143,
+      "sha256": "b26263f2e0517a01607b1e01e192931d95ba4132fc676cdea083a20d46ddf1c1",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "b26263f2e0517a01607b1e01e192931d95ba4132fc676cdea083a20d46ddf1c1"
+    },
+    {
+      "path": "dist/covers/IMG_5177.jpeg",
+      "bytes": 327927,
+      "sha256": "11d1263e0bd26b068277664ca8205287ca1fcf0b10079fbc2dbf444da5ef36b2",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "11d1263e0bd26b068277664ca8205287ca1fcf0b10079fbc2dbf444da5ef36b2"
+    },
+    {
+      "path": "dist/covers/IMG_5178.jpeg",
+      "bytes": 208129,
+      "sha256": "3244ce6f362b83a105ebbdf7eda633ff7e4f98e8da2ce9e751c286c217293752",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "3244ce6f362b83a105ebbdf7eda633ff7e4f98e8da2ce9e751c286c217293752"
+    },
+    {
+      "path": "dist/covers/IMG_5179.jpeg",
+      "bytes": 266917,
+      "sha256": "8acbf3246b7b2513b27fc2d00a894eea62ad4bf85323928c3b1f83f0c03e05ac",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "8acbf3246b7b2513b27fc2d00a894eea62ad4bf85323928c3b1f83f0c03e05ac"
+    },
+    {
+      "path": "dist/covers/IMG_5180.jpeg",
+      "bytes": 307311,
+      "sha256": "7b5860c8fb62ec6ff206f7d2b28fe6f25abf1b9a93bfc0e1c17718ec0c3c733c",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "7b5860c8fb62ec6ff206f7d2b28fe6f25abf1b9a93bfc0e1c17718ec0c3c733c"
+    },
+    {
+      "path": "dist/covers/IMG_5182.webp",
+      "bytes": 128612,
+      "sha256": "6a48af91e178ecc09ba567883b9020baf738d860d4bf9cafcddd3328d4f857f0",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "6a48af91e178ecc09ba567883b9020baf738d860d4bf9cafcddd3328d4f857f0"
+    },
+    {
+      "path": "dist/covers/IMG_5183.jpeg",
+      "bytes": 158999,
+      "sha256": "3a8dac7034c10ed686fc032ddce9e084587b5ab6d6628230499b8a25c9eee705",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "3a8dac7034c10ed686fc032ddce9e084587b5ab6d6628230499b8a25c9eee705"
+    },
+    {
+      "path": "dist/covers/IMG_5184.jpeg",
+      "bytes": 80345,
+      "sha256": "48a92ff3d1eb94b3315c641eb883b04d7277556ce0463da4d80482202884a8d3",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "48a92ff3d1eb94b3315c641eb883b04d7277556ce0463da4d80482202884a8d3"
+    },
+    {
+      "path": "dist/covers/IMG_5187.jpeg",
+      "bytes": 652378,
+      "sha256": "32d05c35faf5ffe22103d91c61ab6b7d2d186772d8bdec7579876050eb9df6ff",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "32d05c35faf5ffe22103d91c61ab6b7d2d186772d8bdec7579876050eb9df6ff"
+    },
+    {
+      "path": "dist/covers/IMG_5188.jpeg",
+      "bytes": 218775,
+      "sha256": "9728cbebd2e197d6b0c89753a4f42eb01ca3e8bdfa2bbe77c2351430a49ad9eb",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "9728cbebd2e197d6b0c89753a4f42eb01ca3e8bdfa2bbe77c2351430a49ad9eb"
+    },
+    {
+      "path": "dist/covers/amaoto-limited.png",
+      "bytes": 814947,
+      "sha256": "76aaf0a138733a8f03657069d45eff66ccb032a09602a30fa2f7a6c3b6df096b",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "76aaf0a138733a8f03657069d45eff66ccb032a09602a30fa2f7a6c3b6df096b"
+    },
+    {
+      "path": "dist/covers/amaoto.png",
+      "bytes": 5671995,
+      "sha256": "9d3dfd25a5ba478f5da68f3e5a72a28589fc29d8bcb3e844b0e360b639d5e7a8",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "9d3dfd25a5ba478f5da68f3e5a72a28589fc29d8bcb3e844b0e360b639d5e7a8"
+    },
+    {
+      "path": "dist/covers/fukai-mori.png",
+      "bytes": 96328,
+      "sha256": "ff194a4a9a6c02d1d146488553c4908db9da2e52316f6b0a95ae5e70f3f65de9",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "ff194a4a9a6c02d1d146488553c4908db9da2e52316f6b0a95ae5e70f3f65de9"
+    },
+    {
+      "path": "dist/covers/hana.webp",
+      "bytes": 43952,
+      "sha256": "189208c256cf2c8fb98779145e93897c2897314a7d74dce2f5cceb027c45353e",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "189208c256cf2c8fb98779145e93897c2897314a7d74dce2f5cceb027c45353e"
+    },
+    {
+      "path": "dist/covers/killing-me.png",
+      "bytes": 43806,
+      "sha256": "56d045581e6564f292d65127ba3afcf142117bf2f7a181aea3508e1456379edd",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "56d045581e6564f292d65127ba3afcf142117bf2f7a181aea3508e1456379edd"
+    },
+    {
+      "path": "dist/covers/revolution.webp",
+      "bytes": 51244,
+      "sha256": "d52452c5beeab6d8684da75df857fb1ad0125be7d2adb86a0ce812cbac84070d",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "d52452c5beeab6d8684da75df857fb1ad0125be7d2adb86a0ce812cbac84070d"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 9858,
+      "sha256": "05ef4bbbecb4a5f678ffe8b888e0e3f839e502af1c1632299b98fc7aa7de8f2f",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "05ef4bbbecb4a5f678ffe8b888e0e3f839e502af1c1632299b98fc7aa7de8f2f"
+    },
+    {
+      "path": "dist/music.js",
+      "bytes": 3345,
+      "sha256": "bc5f48296f41a6b3ac73f71ec8cc39f3050cedb3126cdb721a9f216b68521e6b",
+      "githubBefore": "different",
+      "githubBeforeSha256": "f0b68373b530ca8c5a20415749157b378f7b78a6bc9ab930720a76f44ea6bc3c"
+    },
+    {
+      "path": "dist/shaders.js",
+      "bytes": 21382,
+      "sha256": "71511408844d3d5b35c06b98758156c8431dc625e789446c33429896e4f61c6f",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "71511408844d3d5b35c06b98758156c8431dc625e789446c33429896e4f61c6f"
+    },
+    {
+      "path": "dist/stage.js",
+      "bytes": 29876,
+      "sha256": "26b4da93f347989c5569a827a76d107da236f96b828f54c69c8c8aeaeaceac65",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "26b4da93f347989c5569a827a76d107da236f96b828f54c69c8c8aeaeaceac65"
+    },
+    {
+      "path": "dist/vendor/three.core.js",
+      "bytes": 1443056,
+      "sha256": "3718df126d69c125362a03340913204470d8c50238605150e57f808840fb7759",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "3718df126d69c125362a03340913204470d8c50238605150e57f808840fb7759"
+    },
+    {
+      "path": "dist/vendor/three.module.js",
+      "bytes": 650153,
+      "sha256": "bbf5ed13fe4373f5bd38b14ea8e62e9f157327da5638edc6d3863e08b167c9c7",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "bbf5ed13fe4373f5bd38b14ea8e62e9f157327da5638edc6d3863e08b167c9c7"
+    },
+    {
+      "path": "dist/vendor/three170.module.js",
+      "bytes": 1314681,
+      "sha256": "ce1fa418de16a19495a9f72495580e3015d7745c296d3ce0485897f902ddedfb",
+      "githubBefore": "identical",
+      "githubBeforeSha256": "ce1fa418de16a19495a9f72495580e3015d7745c296d3ce0485897f902ddedfb"
+    }
+  ]
+}

@@ -4,6 +4,12 @@ Interactive 3D CD atelier with album covers, synchronized background music video
 
 Static site files live in `dist/`. GitHub Pages deploys this directory.
 
+## Original Sites backup (version 19)
+
+The complete, byte-identical original Sites source is preserved in `snapshots/sites-v19/`.
+To publish the original Sites experience, run the Pages workflow manually with `source: sites-v19`.
+The default `current` keeps the later GitHub additions. See [복원 안내](backup/RESTORE.md), [대조 결과](backup/AUDIT.md), and run `node backup/verify.cjs` to verify all 42 original files.
+
 ## Local preview
 
 Run `python3 -m http.server 8000 --directory dist` and open http://localhost:8000.

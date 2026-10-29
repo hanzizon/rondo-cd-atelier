@@ -3,6 +3,14 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      source:
+        description: 'Site to publish (sites-v19 restores the original Sites publication)'
+        type: choice
+        default: current
+        options:
+          - current
+          - sites-v19
 permissions:
   contents: read
   pages: write
@@ -18,10 +26,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Verify original Sites backup and site dependencies
+        run: node backup/verify.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: ${{ inputs.source == 'sites-v19' && 'snapshots/sites-v19/dist' || 'dist' }}
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
